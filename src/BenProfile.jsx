@@ -17,10 +17,10 @@ const LucaProfile = () => {
       <div style={styles.section}>
         <h3 style={styles.header}>Find me</h3>
         <p>
-          <a href="#">LinkedIn</a> <a href="#">X</a> <a href="#">Newsletter</a>
+          <a href="https://www.linkedin.com/in/benjamindavissd/">LinkedIn</a> <a href="https://x.com/BenDavis858">X</a>
         </p>
         <p>
-          Email me: <a href="mailto:lucacaviness@gmail.com">lucacaviness@gmail.com</a>
+          Email me: <a href="mailto:ben.davis@berkeley.edu">ben.davis@berkeley.edu</a>
         </p>
       </div>
     </div>
