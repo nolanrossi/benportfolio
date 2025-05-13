@@ -4,7 +4,7 @@ const LucaProfile = () => {
   return (
     <div style={styles.container}>
       <img
-        src="./ben.png" // Replace with the actual image URL or local import
+        src="./ben.png" // Ensure this is in /public or imported correctly
         alt="Ben Davis"
         style={styles.avatar}
       />
@@ -12,12 +12,14 @@ const LucaProfile = () => {
       <p style={styles.subtitle}>Business Administration at Cal Haas</p>
 
       <div style={styles.section}>
+        {/* You can add newsletter or other blocks here */}
       </div>
 
       <div style={styles.section}>
         <h3 style={styles.header}>Find me</h3>
         <p>
-          <a href="https://www.linkedin.com/in/benjamindavissd/">LinkedIn</a> <a href="https://x.com/BenDavis858">X</a>
+          <a href="https://www.linkedin.com/in/benjamindavissd/">LinkedIn</a>{' '}
+          <a href="https://x.com/BenDavis858">X</a>
         </p>
         <p>
           Email me: <a href="mailto:ben.davis@berkeley.edu">ben.davis@berkeley.edu</a>
@@ -32,9 +34,10 @@ const styles = {
     maxWidth: '600px',
     margin: '100px auto',
     padding: '0 16px',
-    fontFamily: 'Georgia, serif',
+    fontFamily: '"Inter", sans-serif',
     color: '#111',
     lineHeight: '1.6',
+    backgroundColor: '#fff',
   },
   avatar: {
     width: '96px',
